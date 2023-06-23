@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: plum;
+        
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.btn{
+    background-color: purple;
+    /* width: 20vw; */
+    padding: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: repeat(5,70px);
+    grid-template-columns: repeat(4,60px);
+
+    grid-template-areas: "text text text items17"
+                "items1 items2 items3 items10"
+                "items4 items5 items6 items11"
+                "items7 items8 items9 items12"
+                "items15 items16 items14 items13";
+
+
+    
+                
+}
+
+.text{
+    grid-area: text;
+}
+.items1{
+    grid-area: items1;
+}
+.items2{
+    grid-area: items2;
+}
+.items3{
+    grid-area: items3;
+}
+.items4{
+    grid-area: items4;
+}
+.items5{
+    grid-area: items5;
+}
+.items7{
+    grid-area: items7;
+}
+.items7{
+    grid-area: items7;
+}
+.items8{
+    grid-area: items8;
+}
+.items9{
+    grid-area: items9;
+}
+.items10{
+    grid-area: items10;
+}
+.items11{
+    grid-area: items11;
+}
+.items12{
+    grid-area: items12;
+}
+.items13{
+    grid-area: items13;
+}
+.items14{
+    grid-area: items14;
+}
+.items15{
+    grid-area: items15;
+}
+.items16{
+    grid-area: items16;
+}
+.items17{
+    grid-area: items17;
+}
+
+.btn button:hover{
+    background-color: plum;
+    color: white;
+}
+
+.btn button{
+    height: 40px;
+    width: 50px;
+    font-size: 17px;
+}
+
+.btn .text input{
+    width: 166px;
+    height: 38px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 16px;
+    padding-left: 5px;    
+}
